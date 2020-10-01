@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 public class QuickSort
 {
 	static int part(int a[],int low, int high)
