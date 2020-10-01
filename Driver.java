@@ -10,6 +10,7 @@ public class Driver
 		Runtime.getRuntime().exec("javac QuickSort.java");
 		Runtime.getRuntime().exec("javac HeapSort.java");
 		Runtime.getRuntime().exec("javac BubbleSort.java");
+		Runtime.getRuntime().exec("javac SelectionSort.java");
 		System.out.println("All programs compiled successfully");
 		//Add new line for new method of sorting, to compile the code
 		Process p=Runtime.getRuntime().exec("java tc_gen");
@@ -17,6 +18,7 @@ public class Driver
 		Process r=Runtime.getRuntime().exec("java InsertionSort");
 		Process s=Runtime.getRuntime().exec("java QuickSort");
 		Process t=Runtime.getRuntime().exec("java HeapSort");
+		Process u=Runtime.getRuntime().exec("java SelectionSort");
 		//Process u=Runtime.getRuntime().exec("java BubbleSort");
 		/*Add a new process for a executing a new sorting method
 		* Then follow the next 4 lines to output the time
