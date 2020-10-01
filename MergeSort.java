@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 public class MergeSort
 {
 	static void sort(int a[],int low,int high)
